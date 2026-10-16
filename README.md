@@ -1,4 +1,12 @@
-# Bayesian Coverage Allocator
+# Interactive Research Platform for Human Decision-Making Under Uncertainty
+
+Developed by Logan McKinlay as part of research with Prof. Matthew Zefferman, Department of Defense Analysis, Naval Postgraduate School.
+
+**Interactive Application:** https://loganhm.shinyapps.io/missileapp/
+
+---
+
+## About
 
 A browser-based decision-making game built in R Shiny for a behavioural research study. Participants gather probabilistic intelligence about two missile fields, update their beliefs through sampling, and allocate coverage units to neutralise as many missiles as possible. The study examines how different uncertainty visualisations affect the quality of allocation decisions.
 
@@ -17,7 +25,7 @@ Install them with:
 install.packages(c("shiny", "shinyjs", "httr", "jsonlite"))
 ```
 
-## Running the app
+## Running the app locally
 
 ```r
 shiny::runApp("app_costly_intel_study.R")
